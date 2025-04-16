@@ -22,4 +22,21 @@
  * Node: ECMAScript + NodeAPI
  *
  * javascript is an interpreted language, it's not a compiled language
+ *
+ *
+ * DOM
+ * Tree structure
+ *
+ * root - html
+ * children
+ * siblings
+ * parents
+ *
+ * Critical Rendering Path
+ *
+ *
+ * CSS
+ * inline > internal > external
+ *
+ * SPA vs MPA
  */

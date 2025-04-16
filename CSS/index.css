@@ -1,0 +1,112 @@
+/* div {
+  background-color: blueviolet;
+}
+
+.box {
+  background-color: brown;
+}
+
+#box4 {
+  background-color: bisque;
+} */
+body {
+  height: 200vh;
+}
+input[type="password"] {
+  background-color: green;
+}
+
+/* all children */
+/* body div {
+  background-color: black;
+} */
+
+/* direct children */
+/* body > div {
+  background-color: yellow;
+} */
+
+/* universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* pseduo selectors */
+/* pseduo class */
+button:hover {
+  color: red;
+}
+
+/* pseduo element */
+button::before {
+  content: "hi";
+}
+
+/* box model */
+#box4 {
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid black;
+}
+
+/* positions */
+
+.static {
+  position: static;
+  top: 20px;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+}
+
+.absolute {
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+  top: 50px;
+  left: 100px;
+}
+
+/* flexbox */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 400px;
+}
+
+/* grid: 2 dimention */
+/* .container {
+  display: grid;
+  grid-template-columns: 100px 150px 200px;
+} */
+
+/* desktop first approach */
+/* mobile first approach */
+@media screen and (min-width: 500px) {
+  body {
+    background-color: orange;
+  }
+}
+
+/* font size: px, em, rem */
+/* 16px */
+
+/* visibility */
+/* display: none, visibility, opacity */
+
+/* BEM: block, element, modifier */
