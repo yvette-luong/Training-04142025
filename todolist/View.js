@@ -31,10 +31,13 @@ export const View = (() => {
     inputEl.value = "";
   };
 
+  const todoListEl = document.querySelector(".todo__list");
+  
   return {
     renderTodos,
     getInputValue,
     clearInput,
     addBtnEl,
+    todoListEl: todolistEl,
   };
 })();

@@ -28,6 +28,16 @@ const Controller = ((model, view, api) => {
     });
 
     view.addBtnEl.addEventListener("click", addTodoHandler);
+    
+    //delete todo handler
+    view.todoListEl.addEventListener("click", (e) => {
+      if (e.target.classList.contains("todo__btn--delete")) {
+        const id = e.target.parentElement.id;
+        api.deleteTodo(id).then(() => {
+          state.deleteTodo(id);
+        });
+      }
+    })
   };
 
   return { init };
