@@ -39,4 +39,22 @@
  * inline > internal > external
  *
  * SPA vs MPA
+ *
+ *
+ *
+ *
+ * MVC: Model, View, Controller
+ * Model: managing data and business logic
+ * View: managing the UI and user interaction
+ * Controller: Connecting Model and View, handling events
+ *
+ *
+ * Todo list app
+ * UI
+ * MVC
+ * db
+ *
+ * show list of todos
+ * add new todos
+ * delete todos
  */

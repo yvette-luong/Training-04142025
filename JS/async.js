@@ -164,3 +164,5 @@ console.log(7);
 // micro queue:
 
 // stack:
+
+// IIFE immediately invoked function expression
