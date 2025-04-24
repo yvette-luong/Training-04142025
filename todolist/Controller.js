@@ -14,7 +14,7 @@ const Controller = ((model, view, api) => {
       view.clearInput();
       state.addTodo(newTodo);
       console.log(state.todos);
-    });
+    }); 
   };
 
   const init = () => {
